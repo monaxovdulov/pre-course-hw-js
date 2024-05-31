@@ -1,6 +1,6 @@
-​let number = 1;
+let number = 1;
 
-console.log(number++)
-console.log(++number)
-console.log(number--)
-console.log(--number)
+console.log(number++); // Постфиксный инкремент: сначала возвращает значение, затем увеличивает его
+console.log(++number); // Префиксный инкремент: сначала увеличивает значение, затем возвращает его
+console.log(number--); // Постфиксный декремент: сначала возвращает значение, затем уменьшает его
+console.log(--number); // Префиксный декремент: сначала уменьшает значение, затем возвращает его
